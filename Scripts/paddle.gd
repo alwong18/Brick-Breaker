@@ -26,7 +26,6 @@ func _process(delta):
 		global_position.x = camera_start_x + half_paddle_width
 	elif global_position.x + half_paddle_width > camera_end_x:
 		global_position.x = camera_end_x - half_paddle_width
-	
 
 func _input(event):
 	if Input.is_action_pressed("left"):
