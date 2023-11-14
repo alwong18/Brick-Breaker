@@ -3,7 +3,9 @@ extends Node
 var current_level = 1
 
 var level_1 = [
-	[0,1,0]
+	[1,2,3,4,5],
+	[2,3,5,4,1],
+	[1,1,1,1,1]
 ]
 
 var level_2 = [
