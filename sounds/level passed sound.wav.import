@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dbr5uxlfxfstv"
+path="res://.godot/imported/level passed sound.wav-716aa95f3a9187c0840402b1fa6cf4dc.sample"
+
+[deps]
+
+source_file="res://level passed sound.wav"
+dest_files=["res://.godot/imported/level passed sound.wav-716aa95f3a9187c0840402b1fa6cf4dc.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

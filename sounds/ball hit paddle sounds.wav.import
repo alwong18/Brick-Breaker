@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dejqfw176p57q"
+path="res://.godot/imported/ball hit paddle sounds.wav-565f52f19894ebef04d0609621d00a5c.sample"
+
+[deps]
+
+source_file="res://ball hit paddle sounds.wav"
+dest_files=["res://.godot/imported/ball hit paddle sounds.wav-565f52f19894ebef04d0609621d00a5c.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0
