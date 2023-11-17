@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://b6ulg7t6m8v3w"
-path="res://.godot/imported/game win sounds.wav-35b8570d6100de1a50c5d17fd5e9e56f.sample"
+path="res://.godot/imported/game win sounds.wav-c61ef59fffcd13e2cd0351234c5756f2.sample"
 
 [deps]
 
-source_file="res://game win sounds.wav"
-dest_files=["res://.godot/imported/game win sounds.wav-35b8570d6100de1a50c5d17fd5e9e56f.sample"]
+source_file="res://sounds/game win sounds.wav"
+dest_files=["res://.godot/imported/game win sounds.wav-c61ef59fffcd13e2cd0351234c5756f2.sample"]
 
 [params]
 

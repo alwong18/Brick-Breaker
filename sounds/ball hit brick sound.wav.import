@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://col2ngodw6ivr"
-path="res://.godot/imported/ball hit brick sound.wav-63ebf8e0341610703ed94da7e13254e5.sample"
+path="res://.godot/imported/ball hit brick sound.wav-5082f2325df7f75950224075b1b2c37c.sample"
 
 [deps]
 
-source_file="res://ball hit brick sound.wav"
-dest_files=["res://.godot/imported/ball hit brick sound.wav-63ebf8e0341610703ed94da7e13254e5.sample"]
+source_file="res://sounds/ball hit brick sound.wav"
+dest_files=["res://.godot/imported/ball hit brick sound.wav-5082f2325df7f75950224075b1b2c37c.sample"]
 
 [params]
 
