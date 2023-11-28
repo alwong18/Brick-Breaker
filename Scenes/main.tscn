@@ -1,4 +1,4 @@
-[gd_scene load_steps=8 format=3 uid="uid://cqk8igkfwj454"]
+[gd_scene load_steps=16 format=3 uid="uid://cqk8igkfwj454"]
 
 [ext_resource type="PackedScene" uid="uid://c2t88tlibf76b" path="res://Scenes/ui.tscn" id="1_m5h3i"]
 [ext_resource type="PackedScene" uid="uid://bnnn3o0ltmkho" path="res://Scenes/paddle.tscn" id="1_tf5bx"]
@@ -7,6 +7,14 @@
 [ext_resource type="PackedScene" uid="uid://yvqnbk7pksgl" path="res://Scenes/death_zone.tscn" id="4_210ko"]
 [ext_resource type="Script" path="res://Scripts/brick_spawner.gd" id="6_ms8al"]
 [ext_resource type="PackedScene" uid="uid://dh7or2j3bymx5" path="res://Scenes/brick.tscn" id="7_qdqg7"]
+[ext_resource type="AudioStream" uid="uid://cp2y00ang43lf" path="res://sounds/background sound.wav" id="8_fedqg"]
+[ext_resource type="AudioStream" uid="uid://col2ngodw6ivr" path="res://sounds/ball hit brick sound.wav" id="9_condc"]
+[ext_resource type="AudioStream" uid="uid://dejqfw176p57q" path="res://sounds/ball hit paddle sounds.wav" id="10_ul5ti"]
+[ext_resource type="AudioStream" uid="uid://dss7ofurpow7m" path="res://sounds/ball hit wall sounds.wav" id="11_hccwl"]
+[ext_resource type="AudioStream" uid="uid://cn2bu78wph3rc" path="res://sounds/ball pass paddle sounds.wav" id="12_du137"]
+[ext_resource type="AudioStream" uid="uid://cy5xqbfubtig4" path="res://sounds/game lost sounds.wav" id="13_sxrxw"]
+[ext_resource type="AudioStream" uid="uid://b6ulg7t6m8v3w" path="res://sounds/game win sounds.wav" id="14_o18i7"]
+[ext_resource type="AudioStream" uid="uid://dbr5uxlfxfstv" path="res://sounds/level passed sound.wav" id="15_v68py"]
 
 [node name="main" type="Node"]
 
@@ -51,3 +59,27 @@ spawn_start = NodePath("../Marker2D")
 
 [node name="Marker2D" type="Marker2D" parent="."]
 position = Vector2(-1, -176)
+
+[node name="BackgroundSound" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("8_fedqg")
+
+[node name="BallHitBrickSound" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("9_condc")
+
+[node name="BallHitPaddleSound" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("10_ul5ti")
+
+[node name="BallHitWallSound" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("11_hccwl")
+
+[node name="BallPassPaddleSound" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("12_du137")
+
+[node name="GameLostSound" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("13_sxrxw")
+
+[node name="GameWonSound" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("14_o18i7")
+
+[node name="LevelPassedSound" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("15_v68py")

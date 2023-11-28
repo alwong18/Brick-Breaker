@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://c0wsg7ukc3puy"
+path="res://.godot/imported/ball hit wall sounds.wav-26f675514556c990c6ba2f8fc24c669b.sample"
+
+[deps]
+
+source_file="res://Assets/sounds/ball hit wall sounds.wav"
+dest_files=["res://.godot/imported/ball hit wall sounds.wav-26f675514556c990c6ba2f8fc24c669b.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

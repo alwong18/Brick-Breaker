@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cn2bu78wph3rc"
+path="res://.godot/imported/ball pass paddle sounds.wav-9611ffbbd92b1e9f328e38d2d0a30c59.sample"
+
+[deps]
+
+source_file="res://sounds/ball pass paddle sounds.wav"
+dest_files=["res://.godot/imported/ball pass paddle sounds.wav-9611ffbbd92b1e9f328e38d2d0a30c59.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0
