@@ -13,10 +13,15 @@ var is_ball_started = false
 @onready var ball = $"../Ball" as Ball
 @onready var collision_shape_2d = $CollisionShape2D
 
+#Audio
+@onready var background_sound = $"../BackgroundSound"
+
+
 func _ready():
 	ball.life_lost.connect(on_ball_lost)
 	camera_rect = camera.get_viewport_rect()
 	half_paddle_width = collision_shape_2d.shape.get_rect().size.x / 2 * scale.x
+	background_sound.play()
 
 func _physics_process(delta):
 	linear_velocity = speed * direction

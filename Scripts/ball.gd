@@ -33,8 +33,9 @@ func _physics_process(delta):
 	if collider is Brick:
 		collider.decrease_level()
 		
-	if (collider is Brick or collider is Paddle):
+	if (collider is Paddle):
 		ball_collision(collider)
+		
 	else:
 		velocity = velocity.bounce(collision.get_normal())
 
