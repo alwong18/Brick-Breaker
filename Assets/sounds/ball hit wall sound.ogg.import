@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://7lvq1m36ry84"
+path="res://.godot/imported/ball hit wall sound.ogg-4d27ab0dfcaff92ec57dc1cac2aadbdf.oggvorbisstr"
+
+[deps]
+
+source_file="res://Assets/sounds/ball hit wall sound.ogg"
+dest_files=["res://.godot/imported/ball hit wall sound.ogg-4d27ab0dfcaff92ec57dc1cac2aadbdf.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://cr824px3nsok2"
+path="res://.godot/imported/ball hit paddle sound.ogg-d92c93616d49c227eded4fa3ba15097c.oggvorbisstr"
+
+[deps]
+
+source_file="res://sounds/ball hit paddle sound.ogg"
+dest_files=["res://.godot/imported/ball hit paddle sound.ogg-d92c93616d49c227eded4fa3ba15097c.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

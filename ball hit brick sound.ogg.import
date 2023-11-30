@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://f86ntjyisj0q"
+path="res://.godot/imported/ball hit brick sound.ogg-90746ece9831044455770fd92b4b75a5.oggvorbisstr"
+
+[deps]
+
+source_file="res://ball hit brick sound.ogg"
+dest_files=["res://.godot/imported/ball hit brick sound.ogg-90746ece9831044455770fd92b4b75a5.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
