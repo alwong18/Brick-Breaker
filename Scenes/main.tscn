@@ -74,6 +74,7 @@ volume_db = -17.0
 
 [node name="BallHitBrickSound" type="AudioStreamPlayer2D" parent="."]
 stream = ExtResource("8_c2fj8")
+volume_db = 1.0
 
 [node name="BallHitPaddleSound" type="AudioStreamPlayer2D" parent="."]
 stream = ExtResource("9_5eysh")
