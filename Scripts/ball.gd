@@ -17,6 +17,10 @@ var last_collider_id
 
 @onready var collision_shape_2d = $CollisionShape2D
 
+#Audio
+@onready var ball_hit_brick_sound = $"../BallHitBrickSound"
+@onready var ball_hit_paddle_sound = $"../BallHitPaddleSound"
+@onready var ball_hit_wall_sound = $"../BallHitWallSound"
 
 
 func _ready():
@@ -35,9 +39,15 @@ func _physics_process(delta):
 		
 	if (collider is Paddle):
 		ball_collision(collider)
+		ball_hit_paddle_sound.play()
+		
+	elif (collider is Brick):
+		ball_collision(collider)
+		ball_hit_brick_sound.play()
 		
 	else:
 		velocity = velocity.bounce(collision.get_normal())
+		ball_hit_wall_sound.play()
 
 
 func start_ball():
