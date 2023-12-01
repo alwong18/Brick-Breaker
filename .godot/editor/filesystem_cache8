@@ -1,5 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1701381056
+::res://::1701465897
 ball hit brick sound.ogg::AudioStreamOggVorbis::8207209697258573694::1701380153::1701381056::1::::<><>::
 README.md::TextFile::-1::1698174653::0::1::::<><>::
 ::res://Assets/::1700258791
@@ -23,22 +23,22 @@ BGMusic.ogg::AudioStreamOggVorbis::446531123652602123::1701204049::1701204049::1
 game lost sounds.wav::AudioStreamWAV::316654979958886201::1700258884::1700258884::1::::<><>::
 game win sounds.wav::AudioStreamWAV::7673372502807513722::1700258966::1700258966::1::::<><>::
 level passed sound.wav::AudioStreamWAV::3722010846179625561::1700258919::1700258920::1::::<><>::
-::res://Scenes/::1701381015
-ball.tscn::PackedScene::1639793933388796857::1699991542::0::1::::<><>::uid://c8l7ke1ygg27h
-brick.tscn::PackedScene::7717525874378736236::1699991542::0::1::::<><>::res://Scripts/brick.gd<>uid://d06ws4g0pu0q0
-death_zone.tscn::PackedScene::1728878936798846559::1699991542::0::1::::<><>::res://Scripts/death_zone.gd
-main.tscn::PackedScene::5918524921092960341::1701380208::0::1::::<><>::uid://c2t88tlibf76b::::res://Scenes/ui.tscn<>uid://bnnn3o0ltmkho::::res://Scenes/paddle.tscn<>uid://xmlfwql8xk4p::::res://Scenes/ball.tscn<>uid://cgbwkhgrry1rh::::res://Scenes/wall.tscn<>uid://yvqnbk7pksgl::::res://Scenes/death_zone.tscn<>res://Scripts/brick_spawner.gd<>uid://dh7or2j3bymx5::::res://Scenes/brick.tscn<>uid://b8fe5kxc3qulc::::res://Assets/sounds/ball hit brick sound.ogg<>uid://dgdap36wp8cw1::::res://Assets/sounds/ball hit paddle sound.ogg<>uid://7lvq1m36ry84::::res://Assets/sounds/ball hit wall sound.ogg<>uid://cn2bu78wph3rc::::res://sounds/ball pass paddle sounds.wav<>uid://cy5xqbfubtig4::::res://sounds/game lost sounds.wav<>uid://b6ulg7t6m8v3w::::res://sounds/game win sounds.wav<>uid://dbr5uxlfxfstv::::res://sounds/level passed sound.wav
-paddle.tscn::PackedScene::3326552659398276180::1699992141::0::1::::<><>::res://Scripts/paddle.gd<>uid://ckbmlemetbql1
-ui.tscn::PackedScene::6709226930201922711::1699991542::0::1::::<><>::uid://b4pqfbvte11k6
-wall.tscn::PackedScene::5197392816476738721::1699991542::0::1::::<><>::
-::res://Scripts/::1701381015
-ball.gd::GDScript::-1::1701381015::0::1::::Ball<>CharacterBody2D<>::
+::res://Scenes/::1701382974
+ball.tscn::PackedScene::1639793933388796857::1701382974::0::1::::<><>::uid://c8l7ke1ygg27h::::res://Assets/Ball.png<>res://Scripts/ball.gd
+brick.tscn::PackedScene::7717525874378736236::1701382974::0::1::::<><>::res://Scripts/brick.gd<>uid://d06ws4g0pu0q0::::res://Assets/Brick-Blue.png
+death_zone.tscn::PackedScene::1728878936798846559::1701382974::0::1::::<><>::res://Scripts/death_zone.gd
+main.tscn::PackedScene::5918524921092960341::1701382974::0::1::::<><>::uid://c2t88tlibf76b::::res://Scenes/ui.tscn<>uid://bnnn3o0ltmkho::::res://Scenes/paddle.tscn<>uid://xmlfwql8xk4p::::res://Scenes/ball.tscn<>uid://cgbwkhgrry1rh::::res://Scenes/wall.tscn<>uid://yvqnbk7pksgl::::res://Scenes/death_zone.tscn<>res://Scripts/brick_spawner.gd<>uid://dh7or2j3bymx5::::res://Scenes/brick.tscn<>uid://c37b1qh6j58ub::::res://Assets/sounds/ball hit brick sound.ogg<>uid://dgdap36wp8cw1::::res://Assets/sounds/ball hit paddle sound.ogg<>uid://7lvq1m36ry84::::res://Assets/sounds/ball hit wall sound.ogg<>uid://cn2bu78wph3rc::::res://sounds/ball pass paddle sounds.wav<>uid://cy5xqbfubtig4::::res://sounds/game lost sounds.wav<>uid://b6ulg7t6m8v3w::::res://sounds/game win sounds.wav<>uid://dbr5uxlfxfstv::::res://sounds/level passed sound.wav
+paddle.tscn::PackedScene::3326552659398276180::1701382974::0::1::::<><>::res://Scripts/paddle.gd<>uid://ckbmlemetbql1::::res://Assets/Paddle.png
+ui.tscn::PackedScene::6709226930201922711::1701382974::0::1::::<><>::uid://b4pqfbvte11k6::::res://Assets/VT323-Regular.ttf<>res://Scripts/ui.gd
+wall.tscn::PackedScene::5197392816476738721::1701382974::0::1::::<><>::
+::res://Scripts/::1701382835
+ball.gd::GDScript::-1::1701382835::0::1::::Ball<>CharacterBody2D<>::
 brick.gd::GDScript::-1::1698965964::0::1::::Brick<>RigidBody2D<>::
 brick_spawner.gd::GDScript::-1::1699991389::0::1::::BrickSpawner<>Node<>::
 death_zone.gd::GDScript::-1::1698697795::0::1::::DeathZone<>Area2D<>::
-level_definitions.gd::GDScript::-1::1699992141::0::1::::<>Node<>::
-paddle.gd::GDScript::-1::1701204050::0::1::::Paddle<>RigidBody2D<>::
-ui.gd::GDScript::-1::1701204050::0::1::::UI<>CanvasLayer<>::
+level_definitions.gd::GDScript::-1::1701382835::0::1::::<>Node<>::
+paddle.gd::GDScript::-1::1701382835::0::1::::Paddle<>RigidBody2D<>::
+ui.gd::GDScript::-1::1701382835::0::1::::UI<>CanvasLayer<>::
 ::res://sounds/::1701381056
 background sound.wav::AudioStreamWAV::5882915387673924051::1700258491::1700259048::1::::<><>::
 ball hit brick sound.ogg::AudioStreamOggVorbis::8951178073130386334::1701381052::1701381056::1::::<><>::
