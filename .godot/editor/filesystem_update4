@@ -1,3 +1,4 @@
+res://Scenes/ball_effect.tscn
 res://Scenes/main.tscn
 res://Scripts/ball.gd
 res://Scenes/paddle.tscn
@@ -6,6 +7,3 @@ res://Scenes/wall.tscn
 res://Scenes/death_zone.tscn
 res://Scenes/ui.tscn
 res://Scenes/brick.tscn
-res://Scripts/paddle.gd
-res://Scripts/ui.gd
-res://Scripts/level_definitions.gd
