@@ -1,9 +1,10 @@
-[gd_scene load_steps=17 format=3 uid="uid://cqk8igkfwj454"]
+[gd_scene load_steps=18 format=3 uid="uid://cqk8igkfwj454"]
 
 [ext_resource type="PackedScene" uid="uid://c2t88tlibf76b" path="res://Scenes/ui.tscn" id="1_m5h3i"]
 [ext_resource type="PackedScene" uid="uid://bnnn3o0ltmkho" path="res://Scenes/paddle.tscn" id="1_tf5bx"]
 [ext_resource type="PackedScene" uid="uid://xmlfwql8xk4p" path="res://Scenes/ball.tscn" id="2_egwgj"]
 [ext_resource type="PackedScene" uid="uid://cgbwkhgrry1rh" path="res://Scenes/wall.tscn" id="3_j1nso"]
+[ext_resource type="PackedScene" uid="uid://c4tfcxtv58w8r" path="res://Scenes/ball_effect.tscn" id="4_58kao"]
 [ext_resource type="PackedScene" uid="uid://yvqnbk7pksgl" path="res://Scenes/death_zone.tscn" id="4_210ko"]
 [ext_resource type="Script" path="res://Scripts/brick_spawner.gd" id="6_ms8al"]
 [ext_resource type="PackedScene" uid="uid://dh7or2j3bymx5" path="res://Scenes/brick.tscn" id="7_qdqg7"]
@@ -40,6 +41,8 @@ position = Vector2(2.08165e-12, 152)
 collision_mask = 14
 death_zone = NodePath("../DeathZone")
 ui = NodePath("../UI")
+
+[node name="BallEffect" parent="Ball" instance=ExtResource("4_58kao")]
 
 [node name="Walls" type="Node" parent="."]
 

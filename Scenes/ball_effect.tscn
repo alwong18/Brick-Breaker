@@ -1,0 +1,22 @@
+[gd_scene load_steps=4 format=3 uid="uid://c4tfcxtv58w8r"]
+
+[sub_resource type="Gradient" id="Gradient_5ltlu"]
+offsets = PackedFloat32Array(0.00510204, 0.821429, 1)
+colors = PackedColorArray(0.104439, 0.584549, 0.922564, 1, 0.729592, 0.729592, 0.729592, 1, 1, 1, 1, 1)
+
+[sub_resource type="GradientTexture1D" id="GradientTexture1D_a0cbs"]
+gradient = SubResource("Gradient_5ltlu")
+
+[sub_resource type="ParticleProcessMaterial" id="ParticleProcessMaterial_y6hjt"]
+particle_flag_disable_z = true
+spread = 180.0
+gravity = Vector3(2.08165e-12, 2.08165e-12, 2.08165e-12)
+initial_velocity_min = 40.0
+initial_velocity_max = 50.0
+orbit_velocity_min = 0.0
+orbit_velocity_max = 0.0
+color_ramp = SubResource("GradientTexture1D_a0cbs")
+
+[node name="BallEffect" type="GPUParticles2D"]
+amount = 80
+process_material = SubResource("ParticleProcessMaterial_y6hjt")

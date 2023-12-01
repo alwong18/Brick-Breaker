@@ -17,6 +17,8 @@ var last_collider_id
 
 @onready var collision_shape_2d = $CollisionShape2D
 
+@onready var ball_effect = $BallEffect
+
 #Audio
 @onready var ball_hit_brick_sound = $"../BallHitBrickSound"
 @onready var ball_hit_paddle_sound = $"../BallHitPaddleSound"
@@ -32,6 +34,7 @@ func _physics_process(delta):
 	var collision = move_and_collide(velocity * ball_speed * delta)
 	if (!collision):
 		return
+	
 		
 	var collider = collision.get_collider()
 	if collider is Brick:
