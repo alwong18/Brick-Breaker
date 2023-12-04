@@ -26,8 +26,9 @@ scale_min = 0.5
 color = Color(0, 0.643137, 0.87451, 1)
 color_ramp = SubResource("GradientTexture1D_p4hsd")
 
-[node name="BrickExplosion" type="GPUParticles2D"]
+[node name="BrickFire" type="GPUParticles2D"]
 material = SubResource("CanvasItemMaterial_18f4r")
+position = Vector2(-14, 10)
 amount = 17
 process_material = SubResource("ParticleProcessMaterial_noaeo")
 texture = ExtResource("1_uw1x3")
