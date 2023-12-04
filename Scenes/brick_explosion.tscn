@@ -1,0 +1,34 @@
+[gd_scene load_steps=6 format=3 uid="uid://cgf74g20xlpxb"]
+
+[ext_resource type="Texture2D" uid="uid://buoa2upilxfr7" path="res://Assets/Flame.png" id="1_uw1x3"]
+
+[sub_resource type="CanvasItemMaterial" id="CanvasItemMaterial_18f4r"]
+blend_mode = 1
+
+[sub_resource type="Gradient" id="Gradient_6t38f"]
+offsets = PackedFloat32Array(0, 0.173469, 0.668367)
+colors = PackedColorArray(0, 0, 0, 1, 0.766532, 0.802062, 0.690653, 1, 0.291304, 0.366166, 0.736319, 1)
+
+[sub_resource type="GradientTexture1D" id="GradientTexture1D_p4hsd"]
+gradient = SubResource("Gradient_6t38f")
+width = 100
+
+[sub_resource type="ParticleProcessMaterial" id="ParticleProcessMaterial_noaeo"]
+particle_flag_disable_z = true
+direction = Vector3(2.08165e-12, -1, 2.08165e-12)
+spread = 30.0
+gravity = Vector3(2.08165e-12, 2.08165e-12, 2.08165e-12)
+initial_velocity_min = 250.0
+initial_velocity_max = 250.0
+orbit_velocity_min = 0.0
+orbit_velocity_max = 0.0
+scale_min = 0.5
+color = Color(0, 0.643137, 0.87451, 1)
+color_ramp = SubResource("GradientTexture1D_p4hsd")
+
+[node name="BrickExplosion" type="GPUParticles2D"]
+material = SubResource("CanvasItemMaterial_18f4r")
+amount = 17
+process_material = SubResource("ParticleProcessMaterial_noaeo")
+texture = ExtResource("1_uw1x3")
+explosiveness = 0.17
