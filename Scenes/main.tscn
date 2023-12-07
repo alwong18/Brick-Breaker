@@ -91,6 +91,7 @@ ui = NodePath("../UI")
 [node name="BrickFire" parent="Ball" instance=ExtResource("5_jjkke")]
 
 [node name="BrickExplosion" parent="Ball" instance=ExtResource("5_sq538")]
+position = Vector2(-12, 8)
 
 [node name="Walls" type="Node" parent="."]
 
@@ -109,6 +110,7 @@ rotation = 1.57006
 collision_layer = 4
 
 [node name="WallExplosion" parent="Walls" instance=ExtResource("5_sq538")]
+position = Vector2(-4, 153)
 process_material = SubResource("ParticleProcessMaterial_jx2ne")
 
 [node name="DeathZone" parent="." instance=ExtResource("4_210ko")]
