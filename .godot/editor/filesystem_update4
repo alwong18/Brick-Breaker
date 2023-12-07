@@ -7,3 +7,6 @@ res://Scenes/ui.tscn
 res://Scenes/brick.tscn
 res://Scenes/ball_effect.tscn
 res://Scenes/brick_fire.tscn
+res://Scripts/ball.gd
+res://Scripts/paddle.gd
+res://Scripts/level_definitions.gd
