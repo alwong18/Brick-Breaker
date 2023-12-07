@@ -6,8 +6,8 @@ signal life_lost
 
 const VELOCITY_LIMIT = 40
 
-@export var ball_speed = 17
-@export var lifes = 3
+@export var ball_speed = 20
+@export var lifes = 5
 @export var death_zone: DeathZone
 @export var ui: UI
 
@@ -47,13 +47,11 @@ func _physics_process(delta):
 		
 	elif (collider is Brick):
 		ball_collision(collider)
-		brick_explosion.emitting = true
 		ball_hit_brick_sound.play()
 		
 	else:
 		velocity = velocity.bounce(collision.get_normal())
 		ball_hit_wall_sound.play()
-		wall_explosion.emitting = true
 
 
 func start_ball():
