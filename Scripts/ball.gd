@@ -47,6 +47,7 @@ func _physics_process(delta):
 		
 	elif (collider is Brick):
 		ball_collision(collider)
+		brick_explosion.emitting = true
 		ball_hit_brick_sound.play()
 		
 	else:
