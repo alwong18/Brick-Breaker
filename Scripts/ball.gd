@@ -18,7 +18,7 @@ var last_collider_id
 @onready var collision_shape_2d = $CollisionShape2D
 
 @onready var brick_explosion = $BrickExplosion
-@onready var wall_explosion = $"../Walls/WallExplosion"
+@onready var wall_explosion = $WallExplosion
 
 #Audio
 @onready var ball_hit_brick_sound = $"../BallHitBrickSound"
@@ -53,6 +53,7 @@ func _physics_process(delta):
 	else:
 		velocity = velocity.bounce(collision.get_normal())
 		ball_hit_wall_sound.play()
+		wall_explosion.emitting = true
 
 
 func start_ball():
